@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="home"></section>
+    <header>
+        <nav>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <div class="photo">
+                    <img src="assest/images/hacker.jpeg" alt="Placeholder Photo">
+                </div>
+            </div>
+        </nav>
+    </header>
+    </section>
+    <!-- Image Slider Section -->
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slide fade">
+                <img src="assest/images/slider11.jpeg" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="assest/images/slider12.jpg" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+                <img src="assest/images/slider13.jpeg" alt="Slide 3">
+            </div>
+            <!-- Navigation Arrows -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="assest/images/kailash.jpg" alt="User Photo">
+                </div>
+                <div class="about-details">
+                    <h2>About Me</h2>
+                    <p><strong>Name:</strong> Kailash Kumar</p>
+                    <p><strong>Experience:</strong> No experience</p>
+                    <p><strong>Company Name:</strong> Tech Innovations Ltd.</p>
+                    <p><strong>Educational Details:</strong> B.Tech (Computer Science Engineering )</p>
+                    <p><strong>Currently Working At:</strong> Future Tech Solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">Java</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">Django</div>
+                <div class="skill-box">NumPy</div>
+                <div class="skill-box">Pandas</div>
+                <div class="skill-box">C++</div>
+                <div class="skill-box">Git</div>
+                <div class="skill-box">GitHub</div>
+                <div class="skill-box">Node.js</div>
+                <div class="skill-box">EJS</div>
+                <div class="skill-box">React</div>
+                <div class="skill-box">MongoDB</div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="assest/images/project1image.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p>A brief description of the first project goes here. It highlights the main features and
+                            technology used.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assest/images/project2.jpeg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p>A brief description of the second project goes here. It highlights the main features and
+                            technology used.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assest/images/progect3.jpeg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p>A brief description of the third project goes here. It highlights the main features and
+                            technology used.</p>
+                        <a href="#" class="project-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-post">
+                    <img src="assest/images/Best-Tech-Blogs-featured-image.webp" alt="Blog 1">
+                    <div class="blog-info">
+                        <h3>Latest Blog Post</h3>
+                        <p>Discover the latest insights and updates from our tech world. Dive into our new posts and
+                            stay informed.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <img src="assest/images/tech trands.jpeg" alt="Blog 2">
+                    <div class="blog-info">
+                        <h3>Tech Trends</h3>
+                        <p>Explore the newest trends in technology and how they impact the industry. Stay ahead with our
+                            detailed analyses.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <img src="assest/images/tips&tricks1.jpg" alt="Blog 3">
+                    <div class="blog-info">
+                        <h3>Tips & Tricks</h3>
+                        <p>Learn valuable tips and tricks to enhance your coding skills and make the most out of your
+                            development tools.</p>
+                        <a href="#" class="blog-link">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <center>
+            <h2>Our Services</h2>
+        </center>
+        <div class="container">
+            <div class="service" id="consulting">
+                <h3>Consulting Services</h3>
+                <button onclick="toggleService('consulting')">+</button>
+                <ul>
+                    <li><strong>Business Strategy:</strong> Crafting strategic plans that align with your company’s
+                        goals.</li>
+                    <li><strong>Market Analysis:</strong> Conducting thorough market research to identify opportunities
+                        and challenges.</li>
+                    <li><strong>Process Optimization:</strong> Streamlining operations to improve efficiency and reduce
+                        costs.</li>
+                </ul>
+            </div>
+            <div class="service" id="technology">
+                <h3>Technology Solutions</h3>
+                <button onclick="toggleService('technology')">+</button>
+                <ul>
+                    <li><strong>Software Development:</strong> Custom software solutions to meet your specific business
+                        requirements.</li>
+                    <li><strong>IT Support:</strong> Providing ongoing IT support to ensure your technology
+                        infrastructure runs smoothly.</li>
+                    <li><strong>Cybersecurity:</strong> Implementing robust security measures to protect your data and
+                        systems.</li>
+                </ul>
+            </div>
+            <div class="service" id="marketing">
+                <h3>Marketing Services</h3>
+                <button onclick="toggleService('marketing')">+</button>
+                <ul>
+                    <li><strong>Digital Marketing:</strong> Leveraging online platforms to enhance your brand’s
+                        presence.</li>
+                    <li><strong>Content Creation:</strong> Producing engaging content that resonates with your target
+                        audience.</li>
+                    <li><strong>SEO Services:</strong> Optimizing your website to improve search engine rankings and
+                        drive organic traffic.</li>
+                </ul>
+            </div>
+            <div class="service" id="financial">
+                <h3>Financial Services</h3>
+                <button onclick="toggleService('financial')">+</button>
+                <ul>
+                    <li><strong>Accounting & Bookkeeping:</strong> Managing your financial records with precision and
+                        accuracy.</li>
+                    <li><strong>Tax Planning:</strong> Developing strategies to minimize tax liabilities and ensure
+                        compliance.</li>
+                    <li><strong>Financial Consulting:</strong> Offering expert advice to help you make informed
+                        financial decisions.</li>
+                </ul>
+            </div>
+            <div class="service" id="hr">
+                <h3>Human Resources Services</h3>
+                <button onclick="toggleService('hr')">+</button>
+                <ul>
+                    <li><strong>Recruitment & Staffing:</strong> Finding the right talent to fit your organizational
+                        needs.</li>
+                    <li><strong>Employee Training & Development:</strong> Enhancing the skills and capabilities of your
+                        workforce.</li>
+                    <li><strong>HR Compliance:</strong> Ensuring your business adheres to employment laws and
+                        regulations.</li>
+                </ul>
+            </div>
+            <div class="service" id="support">
+                <h3>Customer Support Services</h3>
+                <button onclick="toggleService('support')">+</button>
+                <ul>
+                    <li><strong>24/7 Support:</strong> Providing round-the-clock assistance to your customers.</li>
+                    <li><strong>Technical Support:</strong> Offering expert help to resolve technical issues quickly.
+                    </li>
+                    <li><strong>Customer Relationship Management:</strong> Implementing CRM systems to enhance customer
+                        satisfaction.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="User name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="User email ID" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" id="mobile" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="xxxxxxxxxx" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" name="location" placeholder="User location" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <p>We provide top-notch services in consulting, technology solutions, marketing, finance, human
+                        resources, and customer support. Our team is dedicated to helping your business succeed.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul id="listabout">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><strong>Address:</strong> Atta market Street 4 sector 18 metro station, Noida, india</li>
+                        <li><strong>Email:</strong> <a href="mailto:rejramu0008@gmail.com">rajramu0008@gmail.com</a>
+                        </li>
+                        <li><strong>Phone:</strong> <a href="tel:+91 9536652897">+91 9536652897</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links">
+                        <li><a href="#" target="_blank"><img src="assest/images/facebook.png" alt="Facebook"></a></li>
+                        <li><a href="#" target="_blank"><img src="assest/images/twiiter.png" alt="Twitter"></a></li>
+                        <li><a href="#" target="_blank"><img src="assest/images/linkedin.png" alt="LinkedIn"></a></li>
+                        <li><a href="engineer_kumar_1" target="_blank"><img src="assest/images/instagram.jpeg"
+                                    alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 MySite. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
